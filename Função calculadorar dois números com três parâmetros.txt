@@ -1,0 +1,23 @@
+Função calculadorar dois números com três parâmetros:
+
+N1, N2, = int(input('Digite um valor','Digite outro valor'))
+N3 str(input('qual a operação, Digite o sinal +,-,/))
+
+if (n3 =="+"):
+ print('A Soma entre {} e {} é: {}'.format(n1,n2,n1+n2))
+elif(N3 =="-"):
+ print('A subtração entre {} e {} é: {}'.format(n1,n2,n1-n2))
+elif(N3 =="*"):
+ print('A subtração entre {} e {} é: {}'.format(n1,n2,n1*n2))
+elif(N3 =="/"):
+ print('A subtração entre {} e {} é: {}'.format(n1,n2,n1/n2))
+else:
+ print('Resultado igual a 0')
+
+
+RESPOSTA
+
+Digite um valor:
+Digite outro valor:
+qual a operação DIGITE O SINAL: +,-,*,/.
+A Soma entre 3 e 10 é:
